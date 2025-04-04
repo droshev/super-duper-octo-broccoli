@@ -1,0 +1,10 @@
+{
+  "name": "mynxapp-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/mynxapp-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["mynxapp"],
+  "// targets": "to see all targets run: nx show project mynxapp-e2e --web",
+  "targets": {}
+}
