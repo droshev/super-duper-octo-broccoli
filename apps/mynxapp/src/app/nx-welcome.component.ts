@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-nx-welcome',
   imports: [CommonModule],
   template: `
-  <h1>Welcome to mynxapp!</h1>
+  <h1>Welcome mynxapp</h1>
     <button>ADD TO CART</button>
   `,
   styles: [],
