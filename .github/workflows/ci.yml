@@ -46,7 +46,7 @@ jobs:
 
       - name: Get next version
         id: bumpVersion
-        uses: ./.github/actions/bump-version
+        uses: ./.github/action/helpers/bump-version
         with:
           isManual: ${{ env.IS_MANUAL }}
           isPrerelease: ${{ env.IS_PRERELEASE }}
